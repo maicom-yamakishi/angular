@@ -53,6 +53,7 @@ export class TodoCardComponent {
         todoSelected && (todoSelected.done = true)
         return todos
       })
+      this.saveTodosInLocalStorage();
     }
   }
 
